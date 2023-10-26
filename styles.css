@@ -1,0 +1,177 @@
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3a5722;
+    padding: 2rem 0 6rem 0;    
+    flex-wrap: wrap;
+}
+
+.headerlogotext  {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 4rem;
+}
+
+.heromaintext  {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra bold;
+    width: 20rem;
+
+}
+
+.herosmalltext  {
+    font-size: 18px;
+    color: #E5E7Eb;
+    width:25rem;
+
+}
+
+a {
+    font-size: 18px;
+    gap: 24px;
+    color: #E5E7Eb;
+    text-decoration: none; /* no underline */
+    
+}
+.informationboxes  {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.knopjelinks  {
+    margin-top: 15px;
+    background-color:#1458A0;
+    text-decoration: none;
+    color:white; 
+    padding: 10px 35px 10px 35px; 
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+section  {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.randominfo  {
+    margin:80px 0px 80px 0px;
+    font-weight:bolder;
+    font-size:36px;
+}
+
+.doosjesul  {
+    display:flex;
+    justify-content: space-around; 
+    gap: 100px;
+    list-style: none;
+
+}
+
+.fotodoosje {
+    border: 6px #3882F6 solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.woordjesul  {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    list-style: none;
+}
+
+.woordjeswoorden  {
+   text-align: center;
+    width: 160px;
+}
+
+.inspisection  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #E5E7EB;
+
+}
+.inspitext  {
+    width: 800px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    
+}
+
+.persoon  {
+    padding-right: 370px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.persoondiv  {
+    width: 100%;
+
+display: flex;
+justify-content: flex-end;
+}
+
+.calltoaction  {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.calltoaction2  {
+    height: 200px;
+    width: 900px;
+    background: #f19e50;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.calltoaction2left  {
+    color:white;
+    font-size: 20px;
+}
+
+footer  {
+    margin-top:auto;
+    height: 100px;
+    background-color:#3a5722;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+    
+}
+
+
+body {
+    background-color: #ecd285;
+}
+.inspisection  {
+    background-color: #3a5722;;
+}
+
+.informatiedoosjes {
+    width: 100px;
+    height: 50px;
+
+}
